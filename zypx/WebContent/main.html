@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html ng-app="main">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title></title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="js/angular.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body ng-controller="mainctrl">
+
+<div id="sitemain">
+  <div id="logo2">
+      <div style="text-align:center">
+      <img src="images/logo1.gif" alt="">
+      </div>
+  </div>
+  
+  <div id="group2">
+    <div id="ssbar2">
+        <div style="float: left;font-size: 20px;">欢迎您：{{urealname}}</div>
+        <form class="search" method="get" action=""><p>
+        <label>Search</label>
+        <input type="text" name="q" maxlength="255" value="" class="sbox">
+        <input type="image" src="images/arrowg.gif" name="submit" alt="" class="sbtn">
+        </p></form>
+    </div>
+    
+    <div id="group">
+      <div id="menu">
+          <ul>
+              <li ng-repeat="m in menus">
+                  <a href="javascript:void(0);" class="first" ng-click="fun2($index);">{{m.menutext}}</a>
+                  <div ng-show="sss[$index]">
+                      <a ng-repeat="m1 in m.submenus" href="{{m1.url}}" target="f1">&nbsp;&nbsp;{{m1.menutext}}</a>
+                  </div>
+
+              </li>
+
+          </ul>
+      </div>
+      <div id="emptybox2">
+        <div class="lb"><div class="lr"><div class="lt"><div class="ll">
+            <iframe id="f1" name="f1" frameborder="0" style="width: 100%;height: 100%;overflow: auto;"></iframe>
+        </div></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

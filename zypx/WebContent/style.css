@@ -1,0 +1,24 @@
+body {background-color:#FFFFFF; background-image:none;padding:0;margin:0;}
+#sitemain {position:relative; clear:both; width:100%; height:960px; background-color:transparent; font-size:10px;}
+#logo2 {position:relative; float:left; clear:both; width:100%; height:60px; background:#6496DC url("images/umd1.gif") repeat-x; font-size:10px;}
+#logo2 img {position:relative; top:13px; border:0}
+#group2 {position:relative; float:left; clear:both; width:100%; height:430px; background-color:transparent; font-family:verdana,sans-serif; font-weight:bold; font-size:10px; z-index:90;}
+#ssbar2 {position:relative; float:left; clear:both; width:100%; height:30px; background-color:transparent; font-family:arial,sans-serif; font-size:10px;}
+#ssbar2 .search {position:relative; float:right; right:5px; top:5px; z-index:101;}
+#ssbar2 .search p {float:left; margin:0}
+#ssbar2 .search input {float:left;  font-size:11px;}
+#ssbar2 .search .sbox {width:180px; height:14px; margin-left:3px; margin-top:1px; color:#000000; border:solid 1px #808080; background:#FFFFFF;}
+#ssbar2 .search .sbtn {margin-left:4px; margin-top:2px; border:0;}
+#ssbar2 .search label {float:left;  font-size:12px; margin-right:3px; margin-top:3px;}
+#group {position:relative; float:left; clear:both; width:100%; height:800px; background-color:transparent; font-family:verdana,sans-serif; font-weight:bold; font-size:10px; z-index:90;}
+#menu {position:relative; float:left; width:250px; height:800px; background:url("images/lrs1.gif"); font-family:verdana,sans-serif; font-weight:bold; font-size:10px; z-index:90;}
+#menu ul {margin:0; padding:5px 0 0; font-size:12px;}
+#menu li {overflow:inherit; list-style-type:none; margin:0; padding:0; } 
+#menu a {text-decoration:none; margin:0; padding:7px 10px 1px; display:block; height:20px; color:#000000;}
+#menu a.first {margin:0; padding:7px 10px 1px; } 
+#menu a:hover {color:#ADFF2F; background:#007800;}
+#emptybox2 {position:relative; float:left; width:1300px; height:800px; background-color:#FFFFFF; font-size:10px;}
+#emptybox2 .lb {position:relative; float:left; background: url("images/dot1.gif") 0 100% repeat-x; width:100%;height:800px;}
+#emptybox2 .lr {position:relative; float:left; background: url("images/dot1.gif") 100% 0 repeat-y; width:100%;height:800px;}
+#emptybox2 .lt {position:relative; float:left; background: url("images/dot1.gif") 0 0 repeat-x; width:100%;}
+#emptybox2 .ll {position:relative; float:left; background: url("images/dot1.gif") 0 0 repeat-y; width:100%;height:800px;}

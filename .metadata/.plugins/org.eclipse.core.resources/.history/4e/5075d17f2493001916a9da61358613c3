@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="log">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		  <link rel="stylesheet" href="css/bootstrap.css"/>
+          <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+          <script src="js/angular.js"></script>
+          <script src="js/login.js"></script>
+	</head>
+	<body ng-controller="lctrl">
+      <!-- 登录 -->
+      <div style="margin-left:500px;margin-top:200px;">
+          <div class="form-group">
+              <label for="user" stype="display:inline;">账户：</label>
+              <input type="text" class="form-control" id="user" ng-model="un" style="display:inline;width:200px;"autocomplete="off" />
+          </div>
+          <div class="form-group">
+              <label for="password" style="display:inline;">密码：</label>
+             <input type="text" class="form-control" id="password" ng-model="up" style="display:inline;width:200px;"autocomplete="off" />
+         </div>
+      <button type="submit" class="btn btn-primary" ng-click="cl();">登录</button>
+     </div>
+ </body>
+
+</html>

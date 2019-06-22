@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<!-- Themify Icons-->
+	
+	<link rel="stylesheet" href="css/bootstrap-theme.css" media="screen"> 
+	<link rel="stylesheet" href="css/nav_style.css">
+	<link href="css/team_style.css" rel='stylesheet' type='text/css' />
+	
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+	
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2019-06-21
+        	描述：nav
+        -->
+        <div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li class="active"><a href="../zhu/index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Price</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="../my work/mywork.html">我的作品</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="gtco-section border-bottom">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>作品简介</h2>
+					<p>Dignissimos asperioresDignissimos asperiores vitae velit veniam totam fuDignissimos asperiores vitae velit veniam totam fu vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_2.jpg" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="images/img_2.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>图片描述</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_3.jpg" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="images/img_3.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_4.jpg" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="images/img_4.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_1.jpg" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="images/img_1.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_5.jpg" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="images/img_5.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_6.jpg" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="images/img_6.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	
+	
+	<div class="team" id="team">
+	      <div class="container">
+			 <h3 class="tittle">Our Team</h3>
+			 
+				<ul class="ch-grid">
+					
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1"></div>
+								<div class="ch-info-back">
+										<h3>Yacht</h3>
+									<p>by Alexander Shumihin <a href="#">View on Dribbble</a></p>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2"></div>
+								<div class="ch-info-back">
+										<h3>Yacht</h3>
+									<p>by Zoe Ingram  <a href="#">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-3"></div>
+								<div class="ch-info-back">
+										<h3>Yacht</h3>
+									<p>by Eileen Tjan <a href="#">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					 <li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-4"></div>
+								<div class="ch-info-back">
+										<h3>Yacht</h3>
+									<p>by Eileen Tjan  <a href="#">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+		  </div>
+       </div>
+	
+	</body>
+</html>
+

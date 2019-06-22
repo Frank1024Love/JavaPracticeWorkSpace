@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script>
+		var w;
+		
+		function init(){
+			w = new WebSocket("ws://localhost:8080/RTH_pingyou/aaa");
+			w.onopen = function(e){
+				//console.log("hello world");
+				}
+			w.onmessage = function(e){
+				console.log("发送消息");
+			}
+		}
+		
+		function sss(){
+			var a = document.getElementById("t1").value;
+			w.send(a);
+		}
+	</script>
+</head>
+<body onload="init();">
+	<input type="text" id="t1" />
+	<button onclick="sss();">发送</button>
+</body>
+</html>

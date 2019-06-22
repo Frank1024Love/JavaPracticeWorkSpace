@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Home</title>
+
+<!-- Behavioral Meta Data -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link href="CSS/in.css" rel="stylesheet" />
+<link rel="icon" type="image/png" href="IMG/small-logo-01.png" />
+<link href="CSS/spore-font.css" rel="stylesheet" />
+<link href="CSS/animate.css" rel="stylesheet" />
+<link href="CSS/spore-animate.css" rel="stylesheet" />
+<link rel="stylesheet" href="CSS/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/bootstrap-theme.css" media="screen"> 
+<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+	<!-- Fixed navbar -->
+	<div class="blank"></div>
+	<div class="navbar navbar-inverse">
+		<div class="search-box">
+			<div id="sb-search" class="sb-search">
+				<form>
+					<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+					<input class="sb-search-submit" type="submit" value="">
+					<span class="sb-icon-search"> </span>
+				</form>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/uisearch.js"></script>
+			<script>
+				new UISearch( document.getElementById( 'sb-search' ) );
+			</script>
+		<div class="container">
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="../upload/upload.html">上传</a></li>
+					<li><a href="../my work/mywork.html">我的作品</a></li>
+					<li><a href="../denglu/denglu.html">登录</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+<!-- BOUTON MENU TAB -->
+
+
+<!-- HEADER -->
+
+<div id="A1-main">
+	    
+   <!-- <div id="wrapper-logo" class="object">
+	<a href="#"><div id="logo" class="shadow object" ><img src="IMG/logotop.svg" width="169" height="45"/></div></a>
+	</div>-->
+    
+    <div id="A1">
+    	<div class="blank"></div>
+    	<div id="A0"></div>
+    	<div id="A0-2"></div>
+    	<div id="trame"></div>
+    	<div id="wrapper-head">
+   			<div id="title" class="object">世界最受欢迎的建筑网站</div>
+            <div id="wrapper-learnmore">
+            	<div class="bouton-learnmore object">
+        			<div class="text-learnmore object">Learn more</div>
+    			</div>
+				
+            </div>
+           <a href="#ancre"><div id="fleche1"></div></a>
+   	    </div>
+
+
+		<div id="wrapper-plus" class="object"></div>
+        
+	</div>
+        
+</div>
+
+<a name="ancre"></a>
+
+<!-- PART 2 - TITLE -->
+
+<div id="A2">
+    
+    <div id="text-2" class="wow fadeIn" data-wow-offset="10"> 我们的编辑团队分布于世界的五大洲，凭借丰富的实践经验，以最快的速度,为读者传递来自世界各地的建筑资讯。<span style="color:#999;"> 建筑大赏</span></div>
+    
+</div>
+ <!-- PART 3 - PORTFOLIO ARTICLES 3 GRID -->
+ 
+ <div id="wrapper-A3" class="object">
+     
+     	<div id="A3-left">
+  
+         	<div id="wrapper-post1" class="text-part-A5">
+             	<div class="video-container-1">
+ 					<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                 </div>
+             
+             	<div id="wrapper-A3-left-date-1">
+             		<div id="A3-left-date-1">22 nov, 2016</div>
+                 	<div id="A3-left-icone-1"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-left-title-1"><a href="../xiang/xiangqing.html">Post a Youtube video</a></div></li>
+             	</ul>
+                 <div id="A3-left-text-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>  
+             </div>
+             
+ 			
+             <div id="wrapper-post2" class="text-part-A5">
+             	<a href="../xiang/xiangqing.html"><div id="A3-left-image-2"><img src="IMG/tai.jpg"  alt="post an image with animation" title="post an image with animation" class="grow"/></div></a>
+             	<div id="wrapper-A3-left-date-2">
+             		<div id="A3-left-date-2">21 nov, 2016</div>
+                 	<div id="A3-left-icone-2"></div>
+             	</div> 
+            		<ul>
+             		<li><div id="A3-left-title-2"><a href="../xiang/xiangqing.html">Post an image with animation</a></div></li> 
+             	</ul>
+             	<div id="A3-left-text-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+             
+ 			
+              <div id="wrapper-post3" class="text-part-A5">
+             	<a href="../xiang/xiangqing.html"><div id="A3-left-image-3"><img src="IMG/image6-01.jpg"  alt="Auto-resized image" title="Auto-resized image" class="grow"/></div></a>
+             
+             	<div id="wrapper-A3-left-date-3">
+             		<div id="A3-left-date-3">20 nov, 2016</div>
+                 	<div id="A3-left-icone-3"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-left-title-3"><a href="../xiang/xiangqing.html">Auto-resized image</a></div></li>
+                 </ul>  
+             	<div id="A3-left-text-3">	
+ 		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+             
+         </div>
+   
+   
+     	<div id="A3-middle">
+             <div id="wrapper-post4" class="text-part-A5">
+             	<a href="../xiang/xiangqing.html"><div id="A3-middle-image-4"><img src="IMG/image3-01.jpg"  alt="Another post" title="Another post" class="grow"/></div></a>
+             	<div id="wrapper-A3-middle-date-4">
+             		<div id="A3-middle-date-4">19 nov, 2016</div>
+                 	<div id="A3-middle-icone-4"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-middle-title-4"><a href="../xiang/xiangqing.html">Another post</a></div></li>
+                 </ul>  
+             	<div id="A3-middle-text-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+             
+ 			
+             <div id="wrapper-post5" class="text-part-A5">
+             	<a href="../xiang/xiangqing.html"><div id="A3-middle-image-5"><img src="IMG/image4-01.jpg"  alt="Another post" title="Another post" class="grayscale" /></div></a>
+             
+             	<div id="wrapper-A3-middle-date-5">
+             		<div id="A3-middle-date-5">18 nov, 2016</div>
+                 	<div id="A3-middle-icone-5"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-middle-title-5"><a href="../xiang/xiangqing.html">Post transition image</a></div></li>
+                 </ul> 
+             	<div id="A3-middle-text-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+             
+ 			
+             <div id="wrapper-post6" class="text-part-A5">
+            		<div class="video-container-6">
+             		<iframe src="" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+             	</div>
+                 
+             	<div id="wrapper-A3-middle-date-6">
+             		<div id="A3-middle-date-6">17 nov, 2016</div>
+                 	<div id="A3-middle-icone-6"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-middle-title-6"><a href="../xiang/xiangqing.html">Post a Vimeo video</a></div></li>
+                 </ul> 
+             	<div id="A3-middle-text-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+         </div>
+         
+ 		
+         <div id="A3-right">
+         
+         	    <!---<div id="wrapper-post7" class="text-part-A5">
+             	<div class="video-container-1">
+ 					<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                 </div>
+             
+             	<div id="wrapper-A3-right-date-7">
+             		<div id="A3-right-date-7">16 nov, 2016</div>
+                 	<div id="A3-right-icone-7"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-right-title-7"><a href="../eval/xiang/xiangqing7.html">Another video post</a></div></li>
+                 </ul>
+             	<div id="A3-right-text-7">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</div>  
+             </div>--->
+             
+             <div id="wrapper-post8" class="text-part-A5">
+             	<a href="../xiang/xiangqing.html"><div id="A3-right-image-8"><img src="IMG/image5-01.jpg"  alt="Post with transition image" title="Post with transition image" class="grow" /></div></a>
+             
+             	<div id="wrapper-A3-right-date-8">
+             		<div id="A3-right-date-8">15 nov, 2016</div>
+                 	<div id="A3-right-icone-8"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-right-title-8"><a href="../xiang/xiangqing.html">Another post</a></div></li>
+                 </ul>  
+             	<div id="A3-right-text-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+             
+             <div id="wrapper-post9" class="text-part-A5">
+             	<a href="../xiang/xiangqing.html"><div id="A3-right-image-9"><img src="IMG/image2-01.jpg"  alt="Another post" title="Another post" class="grow"/></div></a>
+             
+             	<div id="wrapper-A3-right-date-9">
+             		<div id="A3-right-date-9">14 nov, 2016</div>
+                 	<div id="A3-right-icone-9"></div>
+             	</div> 
+             	<ul>
+             		<li><div id="A3-right-title-9"><a href="../xiang/xiangqing.html">Another post</a></div></li>
+                 </ul>
+             	<div id="A3-right-text-9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>  
+             </div>
+         
+         </div>
+ 	<div class="calage"></div>     
+ </div>
+
+<!-- PART 4 - BOUTON PAGE 1-4 -->
+
+<div id="A4" class="object">
+
+	<div id="wrapper-A4" class="wow bounceInRight" data-wow-offset="10">
+    	
+        
+        <div id="page1" class="object">
+        	<div id="text-page1"><strong>1</strong></div>
+        </div>
+        
+        <div id="main-page2">
+        	<div id="page2" class="object">
+          		<div id="text-page2" class="object"><strong>2</strong></div>
+        	</div>
+        </div>
+        
+        <div id="main-page3">
+        	<div id="page3" class="object">
+            	<div id="text-page3" class="object"><strong>3</strong></div>
+        	</div>
+        </div>
+        
+		<div id="main-page4">
+        	<div id="page4" class="object">
+            	<div id="text-page4" class="object"><strong>4</strong></div>
+        	</div>
+		</div>
+        
+    </div>
+
+</div>
+
+<!-- PART 5 - SUB MENU AND SHORTCUTS -->
+
+<div id="A5"> 
+ 
+	<div id="wrapper-A5">
+    
+       
+        
+    <div class="A5-calage"></div>
+	</div>
+    
+</div>
+
+
+<!-- PART 7 - COPYRIGHT -->
+
+<div id="A7">
+
+	<div id="wrapper-A7">
+    <div id="line-A7"></div>
+	<div id="copyright"><strong>天津城建大学 -16级软件工程1班; 2019.06.20.</strong></div>
+    </div>
+    
+</div>
+
+<!-- SCRIPT -->
+
+	<script src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="JS/jquery-animate-css-rotate-scale.js"></script>
+    <script type="text/javascript" src="JS/wow.min.js"></script>
+	<script type="text/javascript">new WOW().init();</script>
+      <script type="text/javascript" src="JS/fastclick.js"></script>
+    <script type='application/javascript'>
+window.addEventListener('load', function() {
+    new FastClick(document.body);
+}, false);
+</script>
+
+	<script>
+	
+	$(window).on('beforeunload', function(){
+		$(".blank").fadeIn(300);
+		$("#main-wrapper-menu,#A1-main,#A2,#A3,#A4,#A5,#A6,#A7").animate({'opacity':'0'},300);
+  		$(window).delay(1000).scrollTop(0);
+	});
+	
+   $(document).ready(function() {
+	
+	$.localScroll();
+	
+	$(".blank").delay(1000).fadeOut(300);
+	$("#wrapper-head").delay(2000).animate({'opacity':'1'},500);
+	$("#wrapper-logo").delay(3200).animate({'opacity':'1'},300);
+	$("#wrapper-plus").delay(3200).animate({'opacity':'1'},300);
+});
+
+$(function() {
+	var bar = $('#wrapper-head');
+	var opacity = bar.css('opacity');
+	var top = bar.css('top');
+	
+	$(window).scroll(function() {
+		if($(this).scrollTop() > 100) {
+			bar.stop().animate({ opacity :'0', top :'-10%'},250);
+		} 
+	});
+		
+	$(window).scroll(function() {
+		if($(this).scrollTop() < 100) {
+			bar.stop().animate({ opacity :'1', top :'0'},250);
+		}	
+	});
+});
+
+
+/*CLICK PLUS AND CROSS MENU*/
+
+var SS = document.getElementById('wrapper-plus');
+
+SS.addEventListener('click', function() {
+             $("#main-wrapper-menu").animate({'height':'100%'},500);
+             $(".recent-post").delay(500).fadeIn(500);
+             $(".category-post").delay(500).fadeIn(500);
+			 $("#wrapper-plus").fadeOut(250);
+}); 
+
+var WC = document.getElementById('wrapper-cross');
+
+WC.addEventListener('click', function() {
+             $("#main-wrapper-menu").animate({'height':'0'},500);
+			 $(".recent-post").fadeOut(250);
+		     $(".category-post").fadeOut(250);
+			 $("#wrapper-plus").delay(1000).fadeIn(250);			 
+}); 
+
+/*BUTTON ARROW*/
+
+$(document).on('touchstart mouseover', '#fleche1', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#fleche1").stop().animate({'top':'92.5%'},200);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#fleche1', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#fleche1").stop().animate({'top':'90%'},200);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+
+/*BUTTON LOGO*/
+
+$(document).on('touchstart mouseover', '#wrapper-logo', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-logo").stop().animate({'scale':'1.1','opacity':'0.5'},200);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#wrapper-logo', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-logo").stop().animate({'scale':'1','opacity':'1'},200);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON PLUS*/
+
+$(document).on('touchstart mouseover', '#wrapper-plus', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-plus").stop().animate({'opacity':'0.75','scale':'1.1'},150);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#wrapper-plus', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-plus").stop().animate({'opacity':'1','scale':'1'},150);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON CROSS*/
+
+$(document).on('touchstart mouseover', '#wrapper-cross', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-cross").stop().animate({'opacity':'0.75','scale':'1.1'},150);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#wrapper-cross', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#wrapper-cross").stop().animate({'opacity':'1','scale':'1'},150);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+
+/*BUTTON FACEBOOK*/
+
+$(document).on('touchstart mouseover', '#main-facebook', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#facebook").stop().css({'color':'#FFF'});
+			 $("#cadre-facebook").stop().css({'background-color':'#7A9DED'});
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-facebook', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#facebook").stop().css({'color':'#66676D'});
+			 $("#cadre-facebook").stop().css({'background-color':'transparent'});
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON DRIBBBLE*/
+
+$(document).on('touchstart mouseover', '#main-dribbble', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#dribbble").stop().css({'color':'#FFF'});
+			 $("#cadre-dribbble").stop().css({'background-color':'#E29ADE'});
+
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-dribbble', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#dribbble").stop().css({'color':'#66676D'});
+			 $("#cadre-dribbble").stop().css({'background-color':'transparent'});
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON BEHANCE*/
+
+$(document).on('touchstart mouseover', '#main-behance', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#behance").stop().css({'color':'#FFF'});
+			 $("#cadre-behance").stop().css({'background-color':'#606060'});
+
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-behance', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#behance").stop().css({'color':'#66676D'});
+			 $("#cadre-behance").stop().css({'background-color':'transparent'});
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON LINKED*/
+
+$(document).on('touchstart mouseover', '#main-linked', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#linked").stop().css({'color':'#FFF'});
+			 $("#cadre-linked").stop().css({'background-color':'#516182'});
+
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-linked', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#linked").stop().css({'color':'#66676D'});
+			 $("#cadre-linked").stop().css({'background-color':'transparent'});
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON GOOGLE*/
+
+$(document).on('touchstart mouseover', '#main-google', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#google").stop().css({'color':'#FFF'});
+			 $("#cadre-google").stop().css({'background-color':'#EA6E75'});
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-google', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#google").stop().css({'color':'#66676D'});
+			 $("#cadre-google").stop().css({'background-color':'transparent'});
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON PAGE2*/
+
+$(document).on('touchstart mouseover', '#main-page2', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#page2").stop().css({'background-color':'transparent','border-color':'#444549'});
+			 $("#text-page2").stop().css({'color':'#444549'},250);
+			 $("#main-page2").stop().animate({'scale':'1.1'},250);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-page2', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#page2").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
+		     $("#text-page2").stop().css({'color':'#FFF'},250);
+	         $("#main-page2").stop().animate({'scale':'1'},250);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON PAGE3*/
+
+$(document).on('touchstart mouseover', '#main-page3', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#page3").stop().css({'background-color':'transparent','border-color':'#444549'});
+			 $("#text-page3").stop().css({'color':'#444549'},250);
+			 $("#main-page3").stop().animate({'scale':'1.1'},250);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-page3', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#page3").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
+		     $("#text-page3").stop().css({'color':'#FFF'},250);
+	         $("#main-page3").stop().animate({'scale':'1'},250);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON PAGE4*/
+
+$(document).on('touchstart mouseover', '#main-page4', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#page4").stop().css({'background-color':'transparent','border-color':'#444549'});
+			 $("#text-page4").stop().css({'color':'#444549'},250);
+			 $("#main-page4").stop().animate({'scale':'1.1'},250);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#main-page4', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $("#page4").stop().css({'background-color':'#9C9C9C','border-color':'#9C9C9C'});
+		     $("#text-page4").stop().css({'color':'#FFF'},250);
+	         $("#main-page4").stop().animate({'scale':'1'},250);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+/*BUTTON HEADER LEARN MORE*/
+
+$(document).on('touchstart mouseover', '#wrapper-learnmore', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $(".bouton-learnmore").stop().css({'background-color':'#FFF'});
+			 $(".text-learnmore").stop().css({'color':'#333'},250);
+
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+$(document).on('touchend mouseout', '#wrapper-learnmore', function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        if(event.handled !== true) {
+			 
+			 $(".bouton-learnmore").stop().css({'background-color':'transparent'});
+		     $(".text-learnmore").stop().css({'color':'#FFF'},250);
+			 
+            event.handled = true;
+        } else {
+            return false;
+        }
+});
+
+	</script>
+
+</body>
+</html>

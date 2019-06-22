@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="jihua">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+    <script src="js/angular.js"></script>
+    <script src="js/jihua.js"></script>
+</head>
+<body ng-controller="jctrl">
+
+<div style="width: 100%;height: 50px;margin-top: 20px;">
+    <div style="float:left;width: 50%;">
+        <span style="float: right;margin-right: 50px;">{{title1}}{{jid}}</span>
+    </div>
+    <div style="float: left;width: 50%;">
+        <input type="date" style="margin-left: 20px;" ng-model="d1"/>
+    </div>
+</div>
+<div style="width: 100%;height: 35px;">
+    <div class="btn btn-sm btn-success" style="margin-left: 50px;" ng-show="ss1" ng-click="ss1cl();">+添加明细</div>
+</div>
+<div style="width: 98%;margin-left: 2%;" ng-show="ss2">
+    <div class="btn btn-sm btn-success" style="margin-left: 30px;" ng-show="ss4" ng-click="ss4cl();">+添加</div>
+
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr style="background-color:#46b8da;">
+            <td>Name</td>
+            <td>Task</td>
+            <td>Result</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="m in mingxis">
+            <td>{{m.jname}}</td>
+            <td>{{m.jtesk}}</td>
+            <td>{{m.jresult}}</td>
+            <td>
+                <a href="javascript:void(0);" ng-click="xiugaicl($index);">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="javascript:void(0);" ng-click="mingxidel1($index);">删除</a>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+<div style="width: 98%;margin-left: 2%;" ng-show="ss3">
+    <div style="float: right;">
+        <a href="javascript:void(0);" ng-click="ssacl();">关闭</a>
+    </div>
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr style="background-color:#46b8da;">
+            <td>Name</td>
+            <td>Task</td>
+            <td>Result</td>
+            <td>保存</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><input type="text" ng-model="t1.jname"/></td>
+            <td><input type="text" ng-model="t1.jtesk"/></td>
+            <td><input type="text" ng-model="t1.jresult"/></td>
+            <td>
+                <a href="javascript:void(0);" ng-click="mingxisave();" ng-show="saveshow">保存</a>
+                <a href="javascript:void(0);" ng-click="mingxiupdate();" ng-show="updateshow">修改</a>
+
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>
