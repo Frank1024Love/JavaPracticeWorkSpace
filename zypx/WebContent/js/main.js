@@ -1,7 +1,7 @@
 var a=angular.module("main",[]);
 
 a.controller("mainctrl",function($scope,$http){
-    $scope.urealname="";
+    $scope.ure  alname="";
     $scope.menus=[];
     $scope.sss=[];
 
